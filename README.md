@@ -28,8 +28,8 @@ The target variable is `Reached.on.Time_Y.N`, a binary indicator where:
 
 Exploratory analysis confirmed the target distribution is relatively balanced, making it suitable for classification without rebalancing.
 # Visual Exploration
-![Target Variable Distribution](img.1.png)
-![Correlation Heatmap](Images\img.2.png)
+![Target Variable Distribution](Images/img.1.png)
+![Correlation Heatmap](Images/img.2.png)
 ---
 
 ## Modeling
@@ -40,7 +40,7 @@ We implemented and compared several classification models:
 3. **Decision Tree Classifier** – Captures non-linear relationships.
 4. **Random Forest Classifier** – An ensemble approach combining multiple decision trees.
 
-![ROC Curve Comparison](img.3.png)
+![ROC Curve Comparison](Images/img.3.png)
 
 **Preprocessing** included:
 - Standard scaling for numerical variables.
@@ -66,7 +66,7 @@ The most influential features were:
 - `Weight_in_gms`
 - `Cost_of_the_Product`
 
-![Top 10 Feature Importances](Images\img.4.png)
+![Top 10 Feature Importances](Images/img.4.png)
 
 ---
 
