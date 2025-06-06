@@ -29,6 +29,8 @@ The target variable is `Reached.on.Time_Y.N`, a binary indicator where:
 Exploratory analysis confirmed the target distribution is relatively balanced, making it suitable for classification without rebalancing.
 # Visual Exploration
 ![Target Variable Distribution](Images/img.1.png)
+
+
 ![Correlation Heatmap](Images/img.2.png)
 ---
 
@@ -57,7 +59,7 @@ Each model was evaluated using:
 - **ROC Curve Visualization**
 
 ### Key Results:
-- **Decision Tree** performed best with a ROC AUC of **0.74**.
+- **Decision Tree** performed best with a ROC AUC of **0.75**.
 - **Random Forest** followed closely and offered a balanced performance across metrics.
 - Logistic models underperformed slightly in comparison but remained interpretable.
 
